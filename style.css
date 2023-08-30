@@ -1,0 +1,46 @@
+html, body {
+    font-size: 12pt;
+    height: 100%; 
+}
+footer {
+    background-color: #c4b8b8;
+    color: #f4f4f4;
+
+    padding: 20px; 
+    margin: 0;
+
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.title {
+    height: min-content;
+    position: absolute;
+}
+
+.image {
+   height: 120px;
+   width: 120px;
+   position: relative;
+   top: 50px;
+}
+
+nav {
+    height: fit-content;
+}
+
+nav ul {
+    height: min-content;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    padding-left: 50px;
+}
